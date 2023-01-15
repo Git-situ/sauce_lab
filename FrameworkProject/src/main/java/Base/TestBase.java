@@ -14,6 +14,7 @@ import Utility.ReadData;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
+	// Global variable declaration
 	static public WebDriver driver;
 
 	public void initialization() throws Exception {
