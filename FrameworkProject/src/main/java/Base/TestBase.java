@@ -25,7 +25,11 @@ public class TestBase {
 		String url = ReadData.readPropertyFile("url");
 		driver.get(url);
 	}
-
+/**
+ * this method login to app
+ * @author SITU
+ * @throws Exception
+ */
 	public void login() throws Exception {
 		// To Login to application
 		LoginPage loginPage = new LoginPage();
